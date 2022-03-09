@@ -1,0 +1,261 @@
+
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+  
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.menu{
+    display: inline-block;
+    align-items: center;
+    border-bottom: darkblue;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end
+}
+
+
+
+.menu ul,
+.menu li {
+    list-style: none;
+} 
+.menu ul {
+    display: flex;
+}
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.menu li a:hover {
+    border-bottom: 2px solid cornsilk;
+}
+nav ul,
+ nav li {
+    list-style: none;
+    margin: 25px;
+    padding: 0;
+    color: rgb(21, 16, 16);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display:flex;
+
+}
+nav a{
+    padding: 15PX;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4f4b4b;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav .active a,
+nav  a:hover {
+    border-bottom: 3px rgb(233, 0, 0) ;
+    
+
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../imagens/banner_bolo.jpg');
+    background-position: center;
+    background-size: cover;
+    height:670px;
+}
+
+.column{
+    flex-direction: column;
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color: seashell;
+    font-size: 50px;
+    text-shadow: 2px 3px 0px  cornflowerblue;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+}
+.banner_headline h2 {
+    color: seashell;
+    font-size: 19px;
+    text-shadow: 1px 1px 0px  cornflowerblue;
+    max-width: 300px;
+    margin-top: 30px;
+}
+.banner_options{
+ 
+    height: 210px;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+   
+}
+
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#myFooter .fa-instagram:hover{
+    color:purple;
+}
+
+#myFooter .fa-instagram:focus{
+    color:purple;
+}
+
+#myFooter .fa-youtube:hover{
+    color:red;
+}
+
+#myFooter .fa-youtube:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 1sss00px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+
+
+
